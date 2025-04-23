@@ -62,14 +62,7 @@
     gap: 16px;
   }
   
-  .create-btn {
-    background-color: #222;
-    color: white;
-    border: none;
-    padding: 6px 16px;
-    border-radius: 16px;
-    cursor: pointer;
-  }
+
   
   .icon {
     font-size: 20px;
@@ -138,7 +131,6 @@
   
   .user-menu li {
     padding: 8px 0;
-    border-top: 1px solid #333;
     display: flex;
     align-items: center;
     gap: 8px;

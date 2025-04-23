@@ -2,7 +2,7 @@ import "./Sidebar.css";
 import { FiHome, FiClock, FiThumbsUp, FiList, FiVideo, FiBookOpen } from "react-icons/fi";
 import { MdSubscriptions, MdOutlineSlowMotionVideo } from "react-icons/md";
 import {  BsClockHistory } from "react-icons/bs";
-import { useSidebar } from "../contexts/SidebarContext";
+import { useSidebar } from "../../contexts/SidebarContext";
 import SidebarMini from "./SidebarMini";
 
 const Sidebar: React.FC = () => {
