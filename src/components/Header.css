@@ -88,4 +88,60 @@
     cursor: pointer;
   }
   
+  /**/
+
+  .user-avatar-container {
+    position: relative;
+  }
+  
+  .user-menu {
+    position: absolute;
+    right: 0;
+    top: 48px;
+    background-color: #202020;
+    color: white;
+    width: 250px;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+  }
+  
+  .user-info {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .user-info img {
+    width: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-info div p {
+    font-size: 0.8rem;
+    margin: 0;
+    color: #aaa;
+  }
+  
+  .user-info div a {
+    color: #3ea6ff;
+    font-size: 0.8rem;
+    text-decoration: none;
+  }
+  
+  .user-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+  }
+  
+  .user-menu li {
+    padding: 8px 0;
+    border-top: 1px solid #333;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
   
