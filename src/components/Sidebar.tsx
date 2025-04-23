@@ -26,7 +26,7 @@ const Sidebar: React.FC = () => {
         <SidebarItem icon={<FiThumbsUp />} label="Videos que me gustan" />
       </div>
 
-      <div className="section">
+      <div className="section section_subcraption">
         <h4>Suscripciones</h4>
         <SidebarChannel name="Santuario de Luján" />
         <SidebarChannel name="The Soul of Rain" />

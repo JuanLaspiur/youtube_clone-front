@@ -8,8 +8,13 @@ const Header: React.FC = () => {
     <header className="header">
       {/* Lado izquierdo */}
       <div className="header__left">
-        <FiMenu className="icon" onClick={toggleSidebar}/>
-        <span className="logo">🎂 20</span>
+        <FiMenu className="icon" onClick={toggleSidebar}/> {/* QUE SEA IGUAL Y QUE SEA UNA IAMGEN */}
+     
+          <img
+  src="/gato.webp" 
+  alt="Menú"
+   className="menu-img"
+/> 
       </div>
 
       {/* Buscador */}
