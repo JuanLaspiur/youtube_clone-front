@@ -1,5 +1,6 @@
 import React from "react";
 import SubscriptionCard from "./SubscriptionCard";
+import CommentSection from "./CommentSection";
 
 interface VideoPlayerProps {
   title: string;
@@ -26,6 +27,7 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ title, youtubeId }) => {
         isSubscribed={true}
         shares={1}
       />
+      <CommentSection />
     </div>
   );
 };
