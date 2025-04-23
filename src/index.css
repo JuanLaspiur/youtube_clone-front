@@ -2,4 +2,31 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
+/* Scrollbar para navegadores basados en Webkit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000; /* Fondo del scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #111; /* Color del scroll mismo */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #333;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #111 #000;
+}
+

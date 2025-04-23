@@ -38,6 +38,12 @@
     border-bottom: 1px solid #333;
     padding-bottom: 12px;
   }
+.section_subcraption{
+  padding: 12px 0;
+}
+  .section h4 {
+    margin: 12px 0;
+  }
   
   .sidebar-item {
     display: flex;

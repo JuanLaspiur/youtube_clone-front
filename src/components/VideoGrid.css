@@ -1,0 +1,40 @@
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 20px;
+  }
+  
+  .video-card {
+    /*background: white; */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .thumbnail {
+    width: 100%;
+    height: 200px;
+    background-color: #ccc;
+  }
+  
+  .video-info {
+    padding: 10px;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 4px;
+    color: #fff;
+  }
+  
+  .channel {
+    font-size: 0.9rem;
+    color: #ffffff;
+  }
+  
